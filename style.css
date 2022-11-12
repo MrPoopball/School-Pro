@@ -1,0 +1,95 @@
+hero__content {
+    z-index: 5;
+    top: auto;
+    bottom: 0;
+    height: auto;
+    font-size: 16px;
+    padding-bottom: 3.6em;
+}
+
+.hero__content {
+    width: 100%;
+    max-width: 1300px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    position: absolute;
+    left: 0;
+    bottom: 2em;
+    z-index: 2;
+    color: #FFF;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    position: relative;
+    width: 90%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+}
+.mason *, .mason :after, .mason :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    *behavior: url(/_includes/polyfills/boxsizing.htc);
+}
+
+
+div {
+    display: block;
+}
+
+.mason {
+color: #555555;
+font-family: "Open Sans", sans-serif;
+}
+
+
+button, html, input, select, textarea {
+    font-family: sans-serif;
+}
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.center:after, .center:before {
+    content: "";
+    display: table;
+}
+.mason *, .mason :after, .mason :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    *behavior: url(/_includes/polyfills/boxsizing.htc);
+}
+.center:after {
+    clear: both;
+}
+.center:after, .center:before {
+    content: "";
+    display: table;
+}
+.mason *, .mason :after, .mason :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    *behavior: url(/_includes/polyfills/boxsizing.htc);
+}
+
+
